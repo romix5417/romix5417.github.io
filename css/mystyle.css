@@ -341,7 +341,7 @@ span.the-btn {
 }
 
 #toggle ul li {
-     margin-left: 10px;   
+     margin-left: 0;   
 }
 
 #toggle ul li a:hover{
