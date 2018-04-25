@@ -10,11 +10,12 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="tinyblog" content="v1.2">
-	<title>this is title</title>
+	<title>Romix Homepage --- luomin5417@gmail.com</title>
 
 	<link href="//cdn.bootcss.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
 	<link href="//cdn.bootcss.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 	<link href="./css/mystyle.css" rel="stylesheet">
+	<link href="./css/style.css" rel="stylesheet">
 
 	<script src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
 	<script src="//cdn.bootcss.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
@@ -64,14 +65,27 @@
 		<div class="row">
 
 			<div class="col-sm-3 col-md-2 sidebar ">
-				<div>
-					<a href="#">life</a>
-				</div>
-				<ul class="nav nav-sidebar" id="nav">
+				<h2 id="title"><i class="fa fa-sitemap"></i> MENU</h2>
+                <ul id="toggle">
+                    <li>
+                        <div class="active border">
+                            <span class="menu-icons fa fa-home"></span>   <a href="#">HOME</a>
+                        </div>
+                    </li>
 
-					<!--文章列表-->
+                   <li>
+                        <div>
+                            <span class="menu-icons  fa fa-user"></span>   <a href="#">life</a>
+                            <span class="the-btn fa fa-plus"></span>
+                        </div>
+                    	<ul class="nav nav-sidebar" id="nav">
+
+							<!--文章列表-->
+                        </ul>
+                    </li> 
 				</ul>
 			</div>
+			
 			<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
 				<!--正文-->
 				<h1 class="page-header" id="title">About Me</h1>
