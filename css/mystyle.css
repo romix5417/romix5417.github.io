@@ -59,7 +59,7 @@ body {
         left: 0;
         z-index: 1000;
         display: block;
-        padding: 0px;
+        padding: 10px;
         overflow-x: hidden;
         overflow-y: auto;
         /* Scrollable contents if viewport is shorter than content. */
@@ -341,7 +341,7 @@ span.the-btn {
 }
 
 #toggle ul li {
-     margin-left: 109px;   
+     margin-left: 10px;   
 }
 
 #toggle ul li a:hover{
